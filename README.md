@@ -2,7 +2,7 @@
 
 ## Total points = 5
 
-### Purpose of this assignment :
+### Purpose of this assignment
 
 - Testing students skills on
   - creating, styling & mapping components
@@ -10,7 +10,11 @@
 
 ### [Click here to see the project demo](https://react-assignment-1-products-listing.netlify.app/)
 
-### Assignment steps:
+## Assignment completed by suny-shaikh
+
+### [Click here to see my assignment project](https://product-listing-app-suny-shaikh.netlify.app/)
+
+### Assignment steps
 
 - part 1: Create the Products component (point: 1)
 - part 2: Pass products data from the App.js to the Products component (point: 1)
