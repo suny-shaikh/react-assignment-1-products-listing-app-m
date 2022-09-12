@@ -36,18 +36,18 @@ article:hover {
   transform: translateY(-10px);
 }
 
-.btn {
+.btn-card {
   border: none;
   padding: 0.8rem 0;
   border-radius: var(--border-radius);
   transition: all 0.3s;
-  color: orangered;
+  color: #0d6efd;
   cursor: pointer;
   font-size: 16px;
 }
 
-.btn:hover {
-  background-color: orangered;
+.btn-card:hover {
+  background-color: #0d6efd;
   color: #fff;
 }
 
