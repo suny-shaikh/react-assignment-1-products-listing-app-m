@@ -5,17 +5,15 @@ import Counter from './Counter';
 const Product = ({ product }) => {
   const { image, title, price, rating, description } = product;
   return (
-    <article className="product">
-      <img src={image} alt="" />
-      <div className="product__details">
-        <h4 className="product__title">{title}</h4>
-        <p className="product__price fs-5">Price: $ {price}</p>
-        <p className="product__rating">Rating: {rating.rate}/5</p>
-        <p className="product__desc">Description: {description}</p>
-        <span className="text-primary pb-4 fs-5">
-          Quentity: <span className="text-light">{<Counter />}</span>
-        </span>
-        <button className="product__btn btn-card">Add to cart</button>
+    <article className="card">
+      <img src={image} className="card-img-top" alt="Product" />
+      <div className="card-body bg-light">
+        <h4 className="card-title">{title}</h4>
+        <p className="card-text text-primary fs-5 font-500">Price: $ {price}</p>
+        <p className="card-text">Rating: {rating.rate}/5</p>
+        <div className="rounded text-center py-2 w-50 bg-primary bg-opacity-25">{<Counter />}</div>
+        <p className="card-text mt-3 mb-5">Description: {description}</p>
+        <button className="btn btn-primary w-100 shadow">Add to cart</button>
       </div>
     </article>
   );
